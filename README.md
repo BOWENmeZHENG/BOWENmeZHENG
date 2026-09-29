@@ -1,16 +1,30 @@
-## Hi there 👋
+# Hi, I'm Bowen 👋
 
-<!--
-**BOWENmeZHENG/BOWENmeZHENG** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I'm a computational scientist working on scientific machine learning,
+image reconstruction, HPC, and AI agents for experimental science.
 
-Here are some ideas to get you started:
+## 🔬 What I work on
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+- Ptychographic image reconstruction
+- Machine learning for scientific computing
+- GPU and distributed computing
+- AI agents for synchrotron experiments
+- Scientific software infrastructure
+
+## 🚀 Selected Projects
+
+### CDTools
+Contributing to ptychographic reconstruction software and ML-accelerated
+reconstruction workflows.
+
+### ML-Augmented Ptychography
+Developing a hybrid ML + iterative reconstruction approach for faster
+ptychographic reconstruction.
+
+### Beamline AI Agents
+Building agent-based workflows for scientific data analysis and
+experimental control.
+
+## 🛠 Technologies
+
+Python · PyTorch · CUDA · NumPy · SciPy · Slurm · Docker · FastAPI · React
