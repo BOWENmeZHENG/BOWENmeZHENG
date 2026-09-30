@@ -57,4 +57,4 @@ Implemented in the [`bowen/academy_agent`](https://github.com/fair2wise/FAIR2WIS
 
 ## 🛠 Technologies
 
-Python · PyTorch · CUDA · NumPy · SciPy · Slurm · Docker · FastAPI · React · TypeScript · LangGraph · MCP · Tiled · Academy Agents · Globus Compute · Ollama · vLLM
+Python · PyTorch · LLM/vLLM · Agentic AI · Optimization · SQL · Linux · Slurm · Docker · FastAPI · React · LangGraph · MCP
