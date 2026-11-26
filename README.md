@@ -6,12 +6,18 @@ I turn complex data into faster answers, building **ML-accelerated image reconst
 
 ## 🔬 What I work on
 
-- Ptychographic and computational image reconstruction
-- Scientific machine learning for experimental data
-- GPU, multi-GPU, and HPC workflows
-- AI agents and LLM-enabled scientific applications
-- Distributed scientific workflows and remote HPC execution
-- Scientific software and data infrastructure
+<table>
+  <tr>
+    <th width="33%">AI/ML for production scientific imaging</th>
+    <th width="33%">TBD</th>
+    <th width="33%">TBD</th>
+  </tr>
+  <tr>
+    <td><img src="assets/figure-1.svg" alt="AI/ML for production scientific imaging" width="100%"></td>
+    <td><img src="assets/figure-2.svg" alt="Placeholder for second figure" width="100%"></td>
+    <td><img src="assets/figure-3.svg" alt="Placeholder for third figure" width="100%"></td>
+  </tr>
+</table>
 
 ## Selected Contributions
 
