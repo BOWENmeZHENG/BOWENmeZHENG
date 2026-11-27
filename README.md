@@ -8,14 +8,20 @@ I turn complex data into faster answers, building **ML-accelerated image reconst
 
 <table>
   <tr>
-    <th width="33%">AI/ML for production scientific imaging</th>
-    <th width="33%">TBD</th>
-    <th width="33%">TBD</th>
+    <th width="50%">AI/ML for production scientific imaging (published in IUCrJ)</th>
+    <th width="50%">Reasoning-LLM Agent for Enterprise RAG</th>
   </tr>
   <tr>
-    <td><img src="assets/figure-1.svg" alt="AI/ML for production scientific imaging" width="100%"></td>
-    <td><img src="assets/figure-2.svg" alt="Placeholder for second figure" width="100%"></td>
-    <td><img src="assets/figure-3.svg" alt="Placeholder for third figure" width="100%"></td>
+    <td><img src="assets/ml_imaging.png" alt="AI/ML for production scientific imaging" width="100%"></td>
+    <td><img src="assets/reason_rag.png" alt="Reasoning-LLM Agent for Enterprise RAG" width="100%"></td>
+  </tr>
+  <tr>
+    <th width="50%">Agentic Data Platform</th>
+    <th width="50%">Federated Agent Deployment</th>
+  </tr>
+  <tr>
+    <td><img src="assets/figure-3.svg" alt="Agentic Data Platform" width="100%"></td>
+    <td><img src="assets/figure-4.svg" alt="Federated Agent Deployment" width="100%"></td>
   </tr>
 </table>
 
