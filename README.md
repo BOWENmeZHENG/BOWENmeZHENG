@@ -50,10 +50,10 @@ It raised the score over single-shot RAG from **0.529 to 0.745** on 500 [Enterpr
 <details>
 <summary><b>Details</b></summary>
 
-- 95% bootstrap CI for the gain: +0.176 to +0.256, at about 1.6× the time per question. The same local model answered and judged.
 - Built a bounded **agentic search loop** with `search` and `read_doc` tools and step, context, and duplicate-call limits, without an agent framework.
 - Implemented **dense, BM25, and hybrid retrieval**, served through a FastAPI API and a React web UI.
 - Added **MLflow** run tracking, tests, CI, and Docker packaging, with **DVC** data and index versioning backed by **AWS S3** on the [`dvc-version`](https://github.com/BOWENmeZHENG/TechRAG/tree/dvc-version) branch.
+- 95% bootstrap CI for the gain: +0.176 to +0.256, at about 1.6× the time per question. The same local model answered and judged.
 
 </details>
 
@@ -85,26 +85,24 @@ An AI-enabled workbench for browsing, analyzing, and reasoning over **X-ray expe
 </td>
   </tr>
   <tr>
-    <td width="40%"><img src="assets/federated_agent.png" alt="Federated Agent Deployment" width="100%"></td>
+    <td width="40%"><img src="assets/federated_agent.png" alt="Federated Agent Deployment for Scientific Knowledge Extraction" width="100%"></td>
     <td width="60%" valign="top">
 
-### Federated Agent Deployment
+### Federated Agent Deployment for Scientific Knowledge Extraction
 
-A distributed workflow that runs **LLM-based scientific term extraction** on GPU resources at remote HPC systems, contributed to [FAIR2WISE](https://github.com/fair2wise/FAIR2WISE).
+An LLM agent that **extracts scientific terms from research papers** on **high-performance remote servers**, which you can **launch, monitor, and interact with** from your own computer. Contributed to [FAIR2WISE](https://github.com/fair2wise/FAIR2WISE).
 
-**Python · LLMs · LangGraph · Distributed Computing · Academy Agents · Globus Compute**
+**Python · LLMs · LangGraph · Distributed Computing · Multi-Agent Systems · Remote Execution**
 
 🔗 Code: [`bowen/academy_agent`](https://github.com/fair2wise/FAIR2WISE/tree/bowen/academy_agent) branch
 
 <details>
 <summary><b>Details</b></summary>
 
-- Integrated the LangGraph term-extraction pipeline with **Academy Agents and Globus Compute**, building local and remote agents for **execution, task coordination, and status monitoring**.
-- Implemented real-time streaming of logs and CPU, memory, and GPU metrics from remote jobs.
-- Enabled concurrent processing of scientific documents and aggregation of extracted terminology for downstream knowledge-representation workflows.
-- [TBD: deployment across sites, such as NERSC and Argonne]
-- [TBD: your role in the retrieval and paper-download agents that update the knowledge graph]
-- [TBD: scale or performance, such as publications processed or throughput]
+- Built a **LangGraph AI agent** that uses tools to check, clean up, and organize the information it extracts.
+- Verified the AI's results against **predefined rules** and processed multiple pages **in parallel**.
+- Used [**Academy Agents**](https://academy-agents.org/) and [**Globus Compute**](https://www.globus.org/compute) to send tasks to remote servers and get results back.
+- Added a **live dashboard** to track progress and computing resource use.
 
 </details>
 
@@ -116,6 +114,6 @@ A distributed workflow that runs **LLM-based scientific term extraction** on GPU
 
 - **Languages:** Python · TypeScript · SQL
 - **Machine learning:** PyTorch · Deep Learning · Computer Vision · Optimization · CUDA · Multi-GPU Computing
-- **LLMs and agents:** Agentic AI · RAG · LangGraph · MCP · Knowledge Graphs · FAISS · LLM Evaluation · vLLM · Ollama
+- **LLMs and agents:** Agentic AI · Multi-Agent Systems · RAG · LangGraph · MCP · Knowledge Graphs · FAISS · LLM Evaluation · vLLM · Ollama
 - **Software engineering:** FastAPI · REST APIs · React · Concurrency Control · pytest · Git
-- **MLOps and infrastructure:** Production ML Deployment · Data Pipelines · Workflow Orchestration · Prefect · Containerization · Docker · AWS (S3, EC2) · GPU Scheduling · Edge Computing · GitHub Actions · MLflow · DVC · Linux · Slurm
+- **MLOps and infrastructure:** Production ML Deployment · Data Pipelines · Workflow Orchestration · Distributed Computing · Prefect · Containerization · Docker · AWS (S3, EC2) · GPU Scheduling · Edge Computing · GitHub Actions · MLflow · DVC · Linux · Slurm
