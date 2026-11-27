@@ -13,7 +13,7 @@ I turn complex data into faster answers, building **ML-accelerated image reconst
 
 ### AI/ML for production scientific imaging (online soon in IUCrJ)
 
-Integrated ML-accelerated ptychographic reconstruction into the **production workflow at an ALS beamline**, achieving a **2× speedup with improved quality** over legacy methods.
+Integrated ML-accelerated ptychographic reconstruction into the **production workflow at an ALS beamline**, achieving **1.5–2× faster reconstruction with comparable or better quality** than legacy methods.
 
 **Python · PyTorch · Deep Learning · Computer Vision · CUDA · Multi-GPU · Prefect · Docker**
 
