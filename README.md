@@ -43,7 +43,7 @@ An LLM agent that **plans its searches**, **reads full documents**, and **decide
 
 It raised the answer score (LLM-judged correctness × completeness) over single-shot RAG from **0.529 to 0.745** on 500 [EnterpriseRAG-Bench](https://github.com/onyx-dot-app/EnterpriseRAG-Bench) questions (2,723-document subset).
 
-**Python · FAISS · Ollama · FastAPI · React · TypeScript · MLflow · DVC · AWS (S3, EC2) · Docker · GitHub Actions**
+**Python · FastAPI · React · TypeScript · MLflow · DVC · AWS (S3, EC2) · Docker · GitHub Actions**
 
 🔗 Code: [TechRAG](https://github.com/BOWENmeZHENG/TechRAG)
 
@@ -112,9 +112,11 @@ An LLM agent that **extracts scientific terms from research papers** on **high-p
 
 ## 🛠 Skills
 
-- **Languages:** Python · TypeScript · SQL
-- **Machine learning:** PyTorch · Deep Learning · Computer Vision · Optimization · CUDA · Multi-GPU Computing
-- **LLMs and agents:** Agentic AI · LangGraph · Multi-Agent Systems · MCP · RAG · Hybrid Search · Knowledge Graphs · FAISS · LLM Evaluation · vLLM · Ollama
-- **Software engineering:** FastAPI · REST APIs · React · Concurrency Control · pytest · Git
-- **MLOps:** Production ML Deployment · Data Pipelines · Workflow Orchestration · Prefect · MLflow · DVC · CI/CD (GitHub Actions)
-- **Infrastructure:** Distributed Computing · GPU Scheduling · Docker · AWS (S3, EC2) · Linux · Slurm
+| Area | Skills |
+| :--- | :--- |
+| **Languages** | Python · TypeScript · SQL |
+| **Machine learning** | PyTorch · Deep Learning · Computer Vision · Graph Neural Networks · Reinforcement Learning · Optimization · Bayesian Optimization |
+| **LLMs and agents** | Agentic AI · Multi-Agent Systems · LangGraph · MCP · RAG · Knowledge Graphs |
+| **GPU and distributed computing** | CUDA · Multi-GPU Computing · GPU Scheduling · Distributed Computing · Slurm |
+| **Software engineering** | FastAPI · REST APIs · React · Concurrency Control · pytest · Git |
+| **MLOps and infrastructure** | Production ML Deployment · Data Pipelines · Workflow Orchestration (Prefect) · MLflow · DVC · CI/CD (GitHub Actions) · Docker · AWS (S3, EC2) · Linux |
