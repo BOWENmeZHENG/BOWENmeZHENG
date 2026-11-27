@@ -60,25 +60,25 @@ It raised the score over single-shot RAG from **0.529 to 0.745** on 500 [Enterpr
 </td>
   </tr>
   <tr>
-    <td width="40%"><img src="assets/agentic_platform.png" alt="Agentic Data Platform" width="100%"></td>
+    <td width="40%"><img src="assets/agentic_platform_blurred.png" alt="Unified Agentic Platform for Scientific Data" width="100%"></td>
     <td width="60%" valign="top">
 
-### Agentic Data Platform
+### Unified Agentic Platform for Scientific Data
 
-An AI-enabled workbench for browsing, analyzing, and reasoning over **GIWAXS/SAXS experimental data**.
+An AI-enabled workbench for browsing, analyzing, and reasoning over **X-ray experiment data** that reveals the structure of materials.
 
-**React · TypeScript · FastAPI · Tiled · LangGraph · MCP · Docker · Ollama/vLLM**
+**AI Agents · LLMs · LangGraph · MCP · Knowledge Graphs · React · TypeScript · FastAPI · Docker**
 
-🔒 Internal ALS Computing project
+🔒 Code not publicly available
 
 <details>
 <summary><b>Details</b></summary>
 
-- Integrated a **Tiled scientific data catalog** with interactive GIWAXS/SAXS visualization and analysis tools.
-- Built a **LangGraph-based AI assistant** for natural-language interaction with data and tools, exposing scientific tools through the **Model Context Protocol (MCP)**.
-- Integrated **knowledge-graph construction, querying, and visualization** across samples, materials, and publications.
-- Developed a modular full-stack architecture connecting the React frontend with FastAPI services for data access, analysis, and AI agents.
-- [TBD: scale or impact, such as datasets cataloged, users, or time saved]
+- Built a **LangGraph AI assistant** that lets users explore data and run scientific tools by asking in plain language, with tools connected through **MCP**.
+- **Enabled interactive analysis** of X-ray scattering data (GIWAXS/SAXS) on a **live data server** (Tiled), with processed results **written back** to it.
+- Added a **knowledge graph** that maps connections between samples, materials, and publications (sourced from **OpenAlex**), which users can build, search, and visualize.
+- Built an **automated pipeline** that grows the knowledge graph from the data catalog and research papers, using an **LLM to extract and fact-check** key information.
+- Designed a **modular web application** that links the user interface (React) to separate backend services (FastAPI) for data access, analysis, and AI.
 
 </details>
 
@@ -116,6 +116,6 @@ A distributed workflow that runs **LLM-based scientific term extraction** on GPU
 
 - **Languages:** Python · TypeScript · SQL
 - **Machine learning:** PyTorch · Deep Learning · Computer Vision · Optimization · CUDA · Multi-GPU Computing
-- **LLMs and agents:** Agentic AI · RAG · LangGraph · MCP · FAISS · LLM Evaluation · vLLM · Ollama
+- **LLMs and agents:** Agentic AI · RAG · LangGraph · MCP · Knowledge Graphs · FAISS · LLM Evaluation · vLLM · Ollama
 - **Software engineering:** FastAPI · REST APIs · React · Concurrency Control · pytest · Git
 - **MLOps and infrastructure:** Production ML Deployment · Data Pipelines · Workflow Orchestration · Prefect · Containerization · Docker · AWS (S3, EC2) · GPU Scheduling · Edge Computing · GitHub Actions · MLflow · DVC · Linux · Slurm
