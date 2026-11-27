@@ -39,9 +39,11 @@ Integrated ML-accelerated ptychographic reconstruction into the **production wor
 
 ### Reasoning-LLM Agent for Enterprise RAG
 
-An LLM agent that chooses what to search and read raised the score over single-shot RAG from **0.529 to 0.745** on 500 [EnterpriseRAG-Bench](https://github.com/onyx-dot-app/EnterpriseRAG-Bench) questions (2,723-document subset).
+An LLM agent that **plans its searches**, **reads full documents**, and **decides when it has enough evidence** to answer.
 
-**Python · FAISS · Ollama · FastAPI · React · TypeScript · MLflow · DVC · Docker · GitHub Actions**
+It raised the score over single-shot RAG from **0.529 to 0.745** on 500 [EnterpriseRAG-Bench](https://github.com/onyx-dot-app/EnterpriseRAG-Bench) questions (2,723-document subset).
+
+**Python · FAISS · Ollama · FastAPI · React · TypeScript · MLflow · DVC · AWS (S3, EC2) · Docker · GitHub Actions**
 
 🔗 Code: [TechRAG](https://github.com/BOWENmeZHENG/TechRAG)
 
@@ -51,7 +53,7 @@ An LLM agent that chooses what to search and read raised the score over single-s
 - 95% bootstrap CI for the gain: +0.176 to +0.256, at about 1.6× the time per question. The same local model answered and judged.
 - Built a bounded **agentic search loop** with `search` and `read_doc` tools and step, context, and duplicate-call limits, without an agent framework.
 - Implemented **dense, BM25, and hybrid retrieval**, served through a FastAPI API and a React web UI.
-- Added **MLflow** run tracking, tests, CI, and Docker packaging, with **DVC** data and index versioning on the [`dvc-version`](https://github.com/BOWENmeZHENG/TechRAG/tree/dvc-version) branch.
+- Added **MLflow** run tracking, tests, CI, and Docker packaging, with **DVC** data and index versioning backed by **AWS S3** on the [`dvc-version`](https://github.com/BOWENmeZHENG/TechRAG/tree/dvc-version) branch.
 
 </details>
 
@@ -116,4 +118,4 @@ A distributed workflow that runs **LLM-based scientific term extraction** on GPU
 - **Machine learning:** PyTorch · Deep Learning · Computer Vision · Optimization · CUDA · Multi-GPU Computing
 - **LLMs and agents:** Agentic AI · RAG · LangGraph · MCP · FAISS · LLM Evaluation · vLLM · Ollama
 - **Software engineering:** FastAPI · REST APIs · React · Concurrency Control · pytest · Git
-- **MLOps and infrastructure:** Production ML Deployment · Data Pipelines · Workflow Orchestration · Prefect · Containerization · Docker · GPU Scheduling · Edge Computing · GitHub Actions · MLflow · DVC · Linux · Slurm
+- **MLOps and infrastructure:** Production ML Deployment · Data Pipelines · Workflow Orchestration · Prefect · Containerization · Docker · AWS (S3, EC2) · GPU Scheduling · Edge Computing · GitHub Actions · MLflow · DVC · Linux · Slurm
