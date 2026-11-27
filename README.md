@@ -20,8 +20,8 @@ I turn complex data into faster answers, building **ML-accelerated image reconst
     <th width="50%">Federated Agent Deployment</th>
   </tr>
   <tr>
-    <td><img src="assets/figure-3.svg" alt="Agentic Data Platform" width="100%"></td>
-    <td><img src="assets/figure-4.svg" alt="Federated Agent Deployment" width="100%"></td>
+    <td><img src="assets/agentic_platform.png" alt="Agentic Data Platform" width="100%"></td>
+    <td><img src="assets/federated_agent.png" alt="Federated Agent Deployment" width="100%"></td>
   </tr>
 </table>
 
