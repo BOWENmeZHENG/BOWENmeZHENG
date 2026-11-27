@@ -114,6 +114,7 @@ An LLM agent that **extracts scientific terms from research papers** on **high-p
 
 - **Languages:** Python · TypeScript · SQL
 - **Machine learning:** PyTorch · Deep Learning · Computer Vision · Optimization · CUDA · Multi-GPU Computing
-- **LLMs and agents:** Agentic AI · Multi-Agent Systems · RAG · LangGraph · MCP · Knowledge Graphs · FAISS · LLM Evaluation · vLLM · Ollama
+- **LLMs and agents:** Agentic AI · LangGraph · Multi-Agent Systems · MCP · RAG · Hybrid Search · Knowledge Graphs · FAISS · LLM Evaluation · vLLM · Ollama
 - **Software engineering:** FastAPI · REST APIs · React · Concurrency Control · pytest · Git
-- **MLOps and infrastructure:** Production ML Deployment · Data Pipelines · Workflow Orchestration · Distributed Computing · Prefect · Containerization · Docker · AWS (S3, EC2) · GPU Scheduling · Edge Computing · GitHub Actions · MLflow · DVC · Linux · Slurm
+- **MLOps:** Production ML Deployment · Data Pipelines · Workflow Orchestration · Prefect · MLflow · DVC · CI/CD (GitHub Actions)
+- **Infrastructure:** Distributed Computing · GPU Scheduling · Docker · AWS (S3, EC2) · Linux · Slurm · Edge Computing
