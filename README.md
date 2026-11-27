@@ -1,6 +1,6 @@
 # Hi, I'm Bowen 👋
 
-I'm a computational scientist working at the intersection of **machine learning, software engineering, agentic AI, and GPU computing**.
+I'm a computational scientist working at the intersection of **machine learning, software engineering, agentic AI, and GPU computing**. My machine learning toolkit spans **deep learning, computer vision, graph neural networks, reinforcement learning, and Bayesian optimization**.
 
 I turn complex data into faster answers, building **ML-accelerated image reconstruction** and **AI agents** end to end, from **data pipelines** and model training to **tested APIs** and **MLOps**.
 
