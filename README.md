@@ -41,7 +41,7 @@ Integrated ML-accelerated ptychographic reconstruction into the **production wor
 
 An LLM agent that **plans its searches**, **reads full documents**, and **decides when it has enough evidence** to answer.
 
-It raised the score over single-shot RAG from **0.529 to 0.745** on 500 [EnterpriseRAG-Bench](https://github.com/onyx-dot-app/EnterpriseRAG-Bench) questions (2,723-document subset).
+It raised the answer score (LLM-judged correctness × completeness) over single-shot RAG from **0.529 to 0.745** on 500 [EnterpriseRAG-Bench](https://github.com/onyx-dot-app/EnterpriseRAG-Bench) questions (2,723-document subset).
 
 **Python · FAISS · Ollama · FastAPI · React · TypeScript · MLflow · DVC · AWS (S3, EC2) · Docker · GitHub Actions**
 
@@ -117,4 +117,4 @@ An LLM agent that **extracts scientific terms from research papers** on **high-p
 - **LLMs and agents:** Agentic AI · LangGraph · Multi-Agent Systems · MCP · RAG · Hybrid Search · Knowledge Graphs · FAISS · LLM Evaluation · vLLM · Ollama
 - **Software engineering:** FastAPI · REST APIs · React · Concurrency Control · pytest · Git
 - **MLOps:** Production ML Deployment · Data Pipelines · Workflow Orchestration · Prefect · MLflow · DVC · CI/CD (GitHub Actions)
-- **Infrastructure:** Distributed Computing · GPU Scheduling · Docker · AWS (S3, EC2) · Linux · Slurm · Edge Computing
+- **Infrastructure:** Distributed Computing · GPU Scheduling · Docker · AWS (S3, EC2) · Linux · Slurm
